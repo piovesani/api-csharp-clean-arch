@@ -1,0 +1,48 @@
+# Compilação em geral
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.csproj.user
+*.rsuser
+*.suo
+*.sln.docstates
+*.sqlite
+*.vscode
+
+# Arquivos gerados pelo Visual Studio
+.vs/
+*.userprefs
+
+# Arquivos gerados pelo Rider/Resharper
+.idea/
+*.DotSettings.user
+
+# Dependências gerenciadas pelo NuGet
+default.ps1
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+packages/
+
+# Arquivos gerados pelo sistema de build
+debug/
+release/
+# Configurações temporárias do build
+ipch/
+
+# Arquivos de log e cache
+*.log
+*.cache
+
+# Arquivos gerados pelo Blazor/WebAssembly
+wwwroot/
+*.scoped.css
+
+# Dados temporários e arquivos de configuração específicos do usuário
+launchSettings.json
